@@ -126,11 +126,10 @@ You must include the following files in your submission:
 
 ## 📤 Submission Instructions
 
-1. Create a new public GitHub repository named <firstname-lastname>-python-assessment in your github account.
+1. Create a new public GitHub repository named yourfirstname-python-test in your github account.
 2. Add all files listed above.
 3. Include this README.md in the root of your repository.
 4. Share your GitHub repository link to the mail, once completed.
 
 
-### Note: Please don't use ai tools.
-If you have any questions, please write a mail. 
+### Note: Please don't use ai tools.If you have any questions, please write a mail. 
