@@ -1,7 +1,4 @@
 # intern-python-test
-Test is to understand the python skills of interns
-
-
 # 🧩 Assessment 1 – AWS Pricing JSON Formatter (Python)
 
 ## 🎯 Objective
@@ -20,6 +17,7 @@ This file will contain AWS pricing details grouped by region.
 
 ### Example Input
 
+```json
 {
   "EU (Ireland)": [
     {
@@ -56,10 +54,10 @@ This file will contain AWS pricing details grouped by region.
     }
   ]
 }
-
+```
 
 ### Reference Output Structure
-
+```json
 [
   {
     "Location": [
@@ -82,10 +80,10 @@ This file will contain AWS pricing details grouped by region.
     ]
   }
 ]
-
+```
 
 ### Sample Required Output
-
+```json
 [
   {
     "EU (Ireland)": [
@@ -98,10 +96,10 @@ This file will contain AWS pricing details grouped by region.
     ]
   }
 ]
-
+```
 ## 🧭 Work Instructions
 
-1. Read the input JSON file aws-pricing-sample.json using Python’s json module in constants.
+1. Read the input JSON file aws-pricing-sample.json using Python’s json module in constants folder.
 2. Iterate through each location key (for example, "EU (Ireland)"):
     Access the list of pricing records.
     Each record is a dictionary with a long descriptive key and a nested value dictionary.
@@ -112,7 +110,7 @@ This file will contain AWS pricing details grouped by region.
     For each location, create a list of { "Instance Type": "rateCode" } pairs.
     Add this list to a dictionary where the key is the location name.
     Wrap all locations inside a top-level list.
-5. Write the output JSON to a new file named formatted_price_info.json.
+5. Write the output JSON to a new file named formatted_price_info.json into outputs folder.
 6. Print a success message once the output file is generated.
 
 
@@ -134,4 +132,5 @@ You must include the following files in your submission:
 4. Share your GitHub repository link to the mail, once completed.
 
 
-## Note: If you have any questions, please send an email to address you received the assesment. 
+### Note: Please don't use ai tools.
+If you have any questions, please write a mail. 
