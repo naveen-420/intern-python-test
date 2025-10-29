@@ -2,7 +2,7 @@
 # 🧩 Assessment 1 – AWS Pricing JSON Formatter (Python)
 
 ## 🎯 Objective
-Your task is to **read** a complex AWS pricing JSON file, **transform** it into a simplified format, and **write** the result into a new output file.
+Your task is to **read** a AWS pricing JSON file, **transform** it into a simplified format, and **write** the result into a new output file.
 
 This exercise will test your ability to:
 - Work with **JSON data structures** in Python
@@ -128,8 +128,8 @@ You must include the following files in your submission:
 
 1. Create a new public GitHub repository named yourfirstname-python-test in your github account.
 2. Add all files listed above.
-3. Include this README.md in the root of your repository.
-4. Share your GitHub repository link to the mail, once completed.
+3. Include README.md in the root of your repository.
+4. Share the GitHub repository link, once completed.
 
 
-### Note: Please don't use ai tools.If you have any questions, please write a mail. 
+### Note: If you have any questions, please write a mail. 
